@@ -6,6 +6,7 @@ SRC_URI_append_armv7a = " \
     file://disable-webos-qpa-plugin.patch"
 
 DEPENDS_append_armv7a = " virtual/egl"
+DEPENDS_append_armv6 = "virtual/egl"
 
 # Enable dbus support needed for some components inside webos-ports
 DEPENDS += "dbus"
